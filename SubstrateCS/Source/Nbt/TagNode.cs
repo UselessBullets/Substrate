@@ -128,6 +128,14 @@ namespace Substrate.Nbt
         }
 
         /// <summary>
+        /// Conver this node to a double array tag type if supported.
+        /// </summary>
+        /// <returns>A new double array node.</returns>
+        public virtual TagNodeDoubleArray ToTagDoubleArray() {
+            throw new InvalidCastException();
+        }
+
+        /// <summary>
         /// Conver this node to a short array tag type if supported.
         /// </summary>
         /// <returns>A new short array node.</returns>

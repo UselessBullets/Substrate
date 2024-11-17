@@ -53,7 +53,7 @@ namespace Substrate.Nbt
         TAG_STRING = 8,
 
         /// <summary>
-        /// A tag containing a sequential list of tags, where all tags of of the same type.
+        /// A tag containing a sequential list of tags, where all tags of the same type.
         /// </summary>
         TAG_LIST = 9,
 
@@ -63,19 +63,24 @@ namespace Substrate.Nbt
         TAG_COMPOUND = 10,
 
         /// <summary>
-        /// A tag containing an array of signed 32-bit values.
+        /// A tag containing an array of signed 64-bit floating point values.  NON-STANDARD NBT.
         /// </summary>
-        TAG_INT_ARRAY = 11,
-
-        /// <summary>
-        /// A tag containing an array of signed 64-bit values.
-        /// </summary>
-        TAG_LONG_ARRAY = 12,
+        TAG_DOUBLE_ARRAY = 11,
 
         /// <summary>
         /// A tag containing an array of signed 16-bit values.  NON-STANDARD NBT.
         /// <remarks>This tag is included to support modded Minecraft and in anticipation that it may become standard in the future.</remarks>
         /// </summary>
-        TAG_SHORT_ARRAY = 13,
+        TAG_SHORT_ARRAY = 12,
+
+        /// <summary>
+        /// A tag containing an array of signed 64-bit values.  NON-STANDARD NBT.
+        /// </summary>
+        TAG_LONG_ARRAY = 13,
+
+        /// <summary>
+        /// A tag containing an array of signed 32-bit values.  MODIFIED-STANDARD NBT.
+        /// </summary>
+        TAG_INT_ARRAY = 14,
     }
 }
