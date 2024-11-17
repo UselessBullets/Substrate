@@ -74,14 +74,6 @@ namespace Substrate.Nbt
         }
 
         /// <summary>
-        /// Converts the node to itself.
-        /// </summary>
-        /// <returns>A reference to itself.</returns>
-        public virtual TagNodeDoubleArray ToTagDoubleArray() {
-            throw new InvalidCastException();
-        }
-
-        /// <summary>
         /// Convert this node to a byte array tag type if supported.
         /// </summary>
         /// <returns>A new byte array node.</returns>
