@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Substrate</RootNamespace>
-    <AssemblyName>Substrate</AssemblyName>
+    <AssemblyName>Substrate-BTA</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -44,7 +44,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Substrate.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Substrate-BTA.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -138,6 +138,7 @@
     <Compile Include="Source\Nbt\SchemaNode.cs" />
     <Compile Include="Source\Nbt\SchemaNodeArray.cs" />
     <Compile Include="Source\Nbt\SchemaNodeCompound.cs" />
+    <Compile Include="Source\Nbt\SchemaNodeDoubleArray.cs" />
     <Compile Include="Source\Nbt\SchemaNodeIntArray.cs" />
     <Compile Include="Source\Nbt\SchemaNodeList.cs" />
     <Compile Include="Source\Nbt\SchemaNodeScaler.cs" />
